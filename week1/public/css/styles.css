@@ -1,0 +1,74 @@
+.hexagon {
+  position: relative;
+  width: 200px; 
+  height: 115.47px;
+  margin: 57.74px 0;
+  background-image: url('../img/italian-food1.jpg');
+  background-size: auto 226.3213px;
+  background-position: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.7);
+  border-left: solid 2px #333333;
+  border-right: solid 2px #333333;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 141.42px;
+  height: 141.42px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 27.29px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 196.0000px;
+  height: 113.16065276116666px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-56.5803px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-56.5803px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-56.5803px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -70.7107px;
+  border-top: solid 2.8284px #333333;
+  border-right: solid 2.8284px #333333;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -70.7107px;
+  border-bottom: solid 2.8284px #333333;
+  border-left: solid 2.8284px #333333;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 1.1547px;
+  left: 0;
+  width: 196.0000px;
+  height: 113.1607px;
+  z-index: 2;
+  background: inherit;
+}
