@@ -1,129 +1,91 @@
-.hexagon {
-  position: relative;
-  width: 200px; 
-  height: 115.47px;
-  margin: 57.74px 0;
-  background-image: url('../img/italian-food1.jpg');
-  background-size: auto 226.3213px;
-  background-position: center;
-  box-shadow: 0 0 5px rgba(0,0,0,0.7);
-  border-left: solid 2px #333333;
-  border-right: solid 2px #333333;
+* {
+  font-family: 'Poppins', sans-serif;
 }
 
-.hexTop,
-.hexBottom {
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.navbar {
   position: absolute;
-  z-index: 1;
-  width: 141.42px;
-  height: 141.42px;
+  margin: 0px;
+  width: 100%;
+}
+
+nav {
   overflow: hidden;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
-  background: inherit;
-  left: 27.29px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.7);
+  width: 100%;
+  height: 50px;
+  background-color: #0005;
+  line-height: 20px;
+  position: fixed;
+  top: 0;
 }
 
-/*counter transform the bg image on the caps*/
-.hexTop:after,
-.hexBottom:after {
-  content: "";
+nav ul {
+  display: flex;
+  float: right;
+  margin-right: 50px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.8s all;
+}
+
+nav ul li:hover {
+  background-color: #f39d1a
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 30px;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("../img/bg.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+/*  -webkit-animation: bummer .5s;
+  animation: bummer .5s;
+  -webkit-transform: scale(1,1); 
+  transform: scale(1.1,1.1);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
+}
+
+@-webkit-keyframes bummer {
+    100% {
+        -webkit-transform: scale(1,1); 
+    }
+}
+
+@keyframes bummer {
+    100% {
+        transform: scale(1,1); 
+    }
+}
+
+.container {
+  text-align: center;
+}
+
+.middle-text {
   position: absolute;
-  width: 196.0000px;
-  height: 113.16065276116666px;
-  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-56.5803px);
-  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-56.5803px);
-  transform:          rotate(45deg) scaleY(1.7321) translateY(-56.5803px);
-  -webkit-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  transform-origin: 0 0;
-  background: inherit;
-}
-
-.hexTop {
-  top: -70.7107px;
-  border-top: solid 2.8284px #333333;
-  border-right: solid 2.8284px #333333;
-}
-
-.hexTop:after {
-  background-position: center top;
-}
-
-.hexBottom {
-  bottom: -70.7107px;
-  border-bottom: solid 2.8284px #333333;
-  border-left: solid 2.8284px #333333;
-}
-
-.hexBottom:after {
-  background-position: center bottom;
-}
-
-.hexagon:after {
-  content: "";
-  position: absolute;
-  top: 1.1547px;
-  left: 0;
-  width: 196.0000px;
-  height: 113.1607px;
-  z-index: 2;
-  background: inherit;
-}
-
-.marquee {
- height: 30px;  
- overflow: hidden;
- position: relative;
- background: yellow;
- color: orange;
- border: 1px solid orange;
-}
-
-.marquee p {
- position: absolute;
- width: 100%;
- height: 100%;
- margin: 0;
- line-height: 50px;
- text-align: center;
- /* Starting position */
- -moz-transform:translateX(100%);
- -webkit-transform:translateX(100%);  
- transform:translateX(100%);
- /* Apply animation to this element */  
- -moz-animation: scroll-left 20s linear infinite;
- -webkit-animation: scroll-left 20s linear infinite;
- animation: scroll-left 20s linear infinite;
-}
-/* Move it (define the animation) */
-@-moz-keyframes scroll-left {
- 0%   { -moz-transform: translateX(100%); }
- 100% { -moz-transform: translateX(-100%); }
-}
-@-webkit-keyframes scroll-left {
- 0%   { -webkit-transform: translateX(100%); }
- 100% { -webkit-transform: translateX(-100%); }
-}
-@keyframes scroll-left {
- 0%   { 
- -moz-transform: translateX(100%); /* Browser bug fix */
- -webkit-transform: translateX(100%); /* Browser bug fix */
- transform: translateX(100%);     
- }
- 100% { 
- -moz-transform: translateX(-100%); /* Browser bug fix */
- -webkit-transform: translateX(-100%); /* Browser bug fix */
- transform: translateX(-100%); 
- }
-}
-
-polygon {
-  fill:blue;
-  background-image: url('../img/italian-food1.jpg');
-  stroke:purple;
-  stroke-width:5;
-  fill-rule:evenodd;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 100px;
 }
