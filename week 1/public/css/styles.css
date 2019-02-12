@@ -1,0 +1,65 @@
+:root {
+  --gray: rgb(65, 65, 64);
+  --blue: rgb(43, 161, 224);
+  --red: rgb(252, 30, 30);
+  --body: rgb(125, 126, 120);
+  overflow-x: hidden;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+} 
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.main .container {
+  width: 40%;
+  margin: 0.5em;
+  padding: 1em;
+  background-color: red;
+}
+
+.main .product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+.main .header {
+  width: 90%;
+  text-align: center;
+}
+
+.title {
+  font-size: 1em;
+  letter-spacing: 2.5em;
+  margin: 1em;
+  border-left: 1px black;
+  border-right: 1px black;
+  animation-name: title;
+  animation-duration: 2s;
+}
+
+@media(max-width: 900px) {
+  .main .container {
+    width: 75%;
+  }
+
+  .title {
+    letter-spacing: 1em;
+  }
+}
+
+@keyframes title {
+  0%   {letter-spacing: 0.5em; font-size: 2em;}
+  70%  {letter-spacing: 0.7em; font-size: 2em;}
+  100% {letter-spacing: 2.5em; font-size: 1em;}
+}
