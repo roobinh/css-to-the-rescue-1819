@@ -15,43 +15,6 @@ h1:hover {
   color: var(--red);
 }
 
-.frontpage {
-  margin: auto;
-  margin-top: 26vh;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 22% auto 22%;
-
-  width: 50vw;
-  grid-gap: 1px;
-  justify-items: stretch;
-  align-items: stretch;
-  justify-content: space-evenly;
-  align-content: space-evenly;
-  font-size: 1.5vw;
-
-  transform: rotate(-45deg);
-}
-
-.frontpage .title {
-  font-size: 2em;
-  margin: 0em;
-  border-left: 1px black;
-  border-right: 1px black;
-  letter-spacing: 0.55em;
-  animation-name: fronttitle;
-  animation-duration: 2s;
-}
-
-.frontpage > a:target {
-  display: none;
-}
-
-.frontpage .container {
-  animation-name: opacity;
-  animation-duration: 3s;
-}
-
 .main {
   display: flex;
   flex-direction: row;
@@ -69,32 +32,15 @@ h1:hover {
   border: 1px black;
   animation-name: opacity;
   animation-duration: 3s;
-} 
+  /* transform: rotate(5deg) */
+}
+
+.main .container:nth-child(odd) {
+  /* transform: rotate(-5deg); */
+}
 
 .main h1 {
   text-align: center;
-}
-
-.main .product {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 1em;
-}
-
-.main .header {
-  width: 90%;
-  text-align: center;
-}
-
-.main .title {
-  font-size: 2em;
-  letter-spacing: 2.0em;
-  margin: 1em;
-  border-left: 1px black;
-  border-right: 1px black;
-  animation-name: title;
-  animation-duration: 2s;
 }
 
 #content:before, 
@@ -133,6 +79,28 @@ h1:hover {
     border-width: 0 0 0px 0px
 }
 
+.main .product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+.main .header {
+  width: 90%;
+  text-align: center;
+}
+
+.title {
+  font-size: 2em;
+  letter-spacing: 2.0em;
+  margin: 1em;
+  border-left: 1px black;
+  border-right: 1px black;
+  animation-name: title;
+  animation-duration: 2s;
+}
+
 @media(max-width: 900px) {
   .main .container {
     width: 75%;
@@ -147,12 +115,6 @@ h1:hover {
   0%   {letter-spacing: 0.5em; font-size: 2em;}
   70%  {letter-spacing: 0.7em; font-size: 2em;}
   100% {letter-spacing: 2.0em; font-size: 2em;}
-}
-
-@keyframes fronttitle {
-  0%   {letter-spacing: 0.1em; font-size: 2em;}
-  70%  {letter-spacing: 0.2em; font-size: 2em;}
-  100% {letter-spacing: 0.55em;; font-size: 2em;}
 }
 
 @keyframes opacity {
