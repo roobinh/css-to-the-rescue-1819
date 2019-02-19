@@ -16,21 +16,24 @@ h1:hover {
 }
 
 .frontpage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
   margin: auto;
-  margin-top: 26vh;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 22% auto 22%;
 
-  width: 50vw;
+  width: 530px; 
+  height: auto;
   grid-gap: 1px;
   justify-items: stretch;
   align-items: stretch;
   justify-content: space-evenly;
   align-content: space-evenly;
-  font-size: 1.5vw;
 
-  transform: rotate(-45deg);
+  transform:  translateX(-50%) translateY(-50%) rotate(-45  deg);
 }
 
 .frontpage .title {
@@ -38,7 +41,7 @@ h1:hover {
   margin: 0em;
   border-left: 1px black;
   border-right: 1px black;
-  letter-spacing: 0.55em;
+  letter-spacing: 1.5vw;
   animation-name: fronttitle;
   animation-duration: 2s;
 }
@@ -140,6 +143,16 @@ h1:hover {
 
   .title {
     letter-spacing: 0.5em;
+  }
+}
+
+@media(max-width: 600px) {
+  .frontpage {
+    width: 90%;
+  }
+
+  .frontpage .title {
+    letter-spacing: 1.5vw;
   }
 }
 
