@@ -1,3 +1,8 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+} 
+
 :root {
   --gray: rgb(65, 65, 64);
   --blue: rgb(43, 161, 224);
@@ -6,16 +11,55 @@
   overflow-x: hidden;
 }
 
-* {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-} 
-
 h1:hover {
   color: var(--red);
 }
 
-.frontpage {
+div[data-class='main'] {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+div[data-class='container'] {
+  position: relative;
+  width: 40%;
+  margin: 0.5em;
+  padding: 1em;
+  border-radius: 1px black;
+  border: 1px black;
+  animation: rotate 5s infinite, opacity 3s;
+} 
+
+div[data-class='container'] > h1 {
+  text-align: center;
+}
+
+div[data-class='header'] {
+  width: 90%;
+  text-align: center;
+}
+
+div[data-class='header']:first-child {
+  font-size: 2em;
+  letter-spacing: 5vw;
+  margin: 1em;
+  border-left: 1px black;
+  border-right: 1px black;
+  animation-name: title;
+  animation-duration: 2s;
+}
+
+div[data-class="product"] {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+div[data-class="frontpage"] {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -36,7 +80,7 @@ h1:hover {
   transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
 }
 
-.frontpage .title {
+div[data-class="fronttitle"] {
   font-size: 4vh;
   margin: 0em;
   border-left: 1px black;
@@ -46,65 +90,19 @@ h1:hover {
   animation-duration: 2s;
 }
 
-.frontpage > a:target {
+div[data-class="frontpage"] > a:target {
   display: none;
 }
 
-.frontpage .container {
+div[data-class="frontcontainer"] {
   animation-name: opacity;
   animation-duration: 3s;
-}
-
-.main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: flex-start;
-}
-
-.main .container {
-  position: relative;
-  width: 40%;
-  margin: 0.5em;
-  padding: 1em;
-  border-radius: 1px black;
-  border: 1px black;
-  animation: rotate 3s infinite, opacity 3s;
-  /* animation-name: opacity;
-  animation-duration: 3s; */
 } 
 
-.main h1 {
-  text-align: center;
-}
-
-.main .product {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 1em;
-}
-
-.main .header {
-  width: 90%;
-  text-align: center;
-}
-
-.main .title {
-  font-size: 2em;
-  letter-spacing: 2.0em;
-  margin: 1em;
-  border-left: 1px black;
-  border-right: 1px black;
-  animation-name: title;
-  animation-duration: 2s;
-}
-
-#content:before, 
-#content:after, 
-#content>:last-child:before, 
-#content>:last-child:after {
+div[data-id="content"]:before, 
+div[data-id="content"]:after, 
+div[data-id="content"]>:last-child:before, 
+div[data-id="content"]>:last-child:after {
     position: absolute;
     width: 60px; 
     height: 50px;
@@ -113,54 +111,54 @@ h1:hover {
     content: ' ';
 }
 
-#content:before { /*Linksboven */
+div[data-id="content"]:before { /*Linksboven */
     top: 10px;
     left: 10px;
     border-width: 1px 0 0 1px
 }
 
-#content:after { /* Rechtsboven */
+div[data-id="content"]:after { /* Rechtsboven */
     top: 10px;
     right: 10px;
     border-width: 1px 1px 0 0
 }
 
- #content>:last-child:before { /* Rechtsonder */
+div[data-id="content"]>:last-child:before { /* Rechtsonder */
     bottom: 10px;
     right: 10px;     
     border-width: 0 0px 0px 0
 }
 
-#content>:last-child:after { /* Linksonder */
+div[data-id="content"]>:last-child:after { /* Linksonder */
     bottom: 10px;
     left: 10px;
     border-width: 0 0 0px 0px
 }
 
 @media(max-width: 900px) {
-  .main .container {
+  div[data-class="container"] {
     width: 75%;
   }
 
-  .title {
-    letter-spacing: 0.5em;
+  div[data-class='header']:first-child {
+    letter-spacing: 0em;
   }
 }
 
-/* @media(max-width: 600px) {
-  .frontpage {
-    width: 90%;
+@media(max-width: 600px) {
+  div[data-class="frontpage"] {
+    /* width: 90%; */
   }
 
-  .frontpage .title {
-    letter-spacing: 1.5vw;
+  div[data-class="fronttitle"]  {
+    /* letter-spacing: 1.5vw; */
   }
-} */
+}
 
 @keyframes title {
   0%   {letter-spacing: 0.5em;}
   70%  {letter-spacing: 0.7em;}
-  100% {letter-spacing: 2.0em;}
+  100% {letter-spacing: 5vw;}
 }
 
 @keyframes fronttitle {
