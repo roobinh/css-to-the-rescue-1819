@@ -1,3 +1,4 @@
+/* ------------ ROOT ---------------- */
 * {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -12,6 +13,57 @@ h1:hover {
   color: var(--red);
 }
 
+/* ------------ FRONT PAGE ---------------- */
+div[data-class="front-flex"] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 22% auto 22%;
+
+  width: 80vh; 
+  height: auto;
+  grid-gap: 1px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+
+  transform:  translateX(-50%) translateY(-50%) rotate(0deg);
+}
+
+div[data-class="clicktext"] {
+  position: absolute;
+  top: 53%;
+  left: 67%;
+  text-align: center;
+  color: var(--red);
+  transform:  translateX(-50%) translateY(-50%) rotate(30deg);
+  
+  animation: opacity 3s, moveUpDown 3s linear infinite;
+}
+ 
+div[data-class="fronttitle"] {
+  text-align: center;
+  font-size: 4vh;
+  margin: 0em;
+  letter-spacing: .9em;
+  animation-name: fronttitle;
+  animation-duration: 2s;
+  
+}
+
+
+div[data-class="frontcontainer"] {
+  animation-name: opacity;
+  animation-duration: 3s;
+} 
+
+
+/* ------------ HOME PAGE ---------------- */
 div[data-class='main'] {
   display: none;
   flex-direction: row;
@@ -22,10 +74,12 @@ div[data-class='main'] {
 
 div[data-class='header'] {
   width: 90%;
+  /* margin: auto; */
   text-align: center;
 }
 
 div[data-class='header']:first-child {
+  text-align: center;
   font-size: 2em;
   letter-spacing: 6vw;
   margin: 1em;
@@ -74,51 +128,9 @@ div[data-class="flying-drink"] {
   transform:  translateX(-50%) translateY(-50%) rotate(10deg);
 }
 
-div[data-class="front-flex"] {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  margin: auto;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 22% auto 22%;
-
-  width: 80vh; 
-  height: auto;
-  grid-gap: 1px;
-  justify-items: stretch;
-  align-items: stretch;
-  justify-content: space-evenly;
-  align-content: space-evenly;
-
-  transform:  translateX(-50%) translateY(-50%) rotate(0deg);
+div[data-class="flying-drink"]:hover {
+  transform: scale(1.2);
 }
-
-div[data-class="clicktext"] {
-  position: absolute;
-  top: 50%;
-  left: 70%;
-  text-align: center;
-  color: var(--red);
-  transform:  translateX(-50%) translateY(-50%) rotate(30deg);
-  
-  animation: opacity 3s, moveUpDown 3s linear infinite;
-}
- 
-div[data-class="fronttitle"] {
-  font-size: 4vh;
-  margin: 0em;
-  letter-spacing: .9em;
-  animation-name: fronttitle;
-  animation-duration: 2s;
-}
-
-
-div[data-class="frontcontainer"] {
-  animation-name: opacity;
-  animation-duration: 3s;
-} 
 
 div[data-id="content"]:before, 
 div[data-id="content"]:after, 
@@ -183,6 +195,7 @@ div[data-class="footer-bg"] {
   z-index:1;
 }
 
+/* ------------ MEDIA QUERRIES ---------------- */
 @media(max-width: 900px) {
   div[data-class="container"] {
     width: 75%;
@@ -193,16 +206,18 @@ div[data-class="footer-bg"] {
   }
 }
 
-@keyframes title {
-  0%   {letter-spacing: 0.5em;}
-  70%  {letter-spacing: 0.7em;}
-  100% {letter-spacing: 6vw;}
-}
+/* ------------ KEYFRAMES ---------------- */
 
 @keyframes fronttitle {
   0%   {letter-spacing: 0.1em;}
   70%  {letter-spacing: 0.2em;}
   100% {letter-spacing: 0.9em;}
+}
+
+@keyframes title {
+  0%   {letter-spacing: 0.5em;}
+  70%  {letter-spacing: 0.7em;}
+  100% {letter-spacing: 6vw;}
 }
 
 @keyframes opacity {
@@ -223,7 +238,7 @@ div[data-class="footer-bg"] {
     bottom: 0;
   }
   50% {
-    bottom: 100px;
+    bottom: 50px;
   }
 }
 
