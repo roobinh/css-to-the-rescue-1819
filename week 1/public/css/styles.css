@@ -4,10 +4,7 @@
 } 
 
 :root {
-  --gray: rgb(65, 65, 64);
-  --blue: rgb(43, 161, 224);
   --red: rgb(155, 0, 0);
-  --body: rgb(125, 126, 120);
   overflow-x: hidden;
 }
 
@@ -30,8 +27,14 @@ div[data-class='container'] {
   padding: 1em;
   border-radius: 1px black;
   border: 1px black;
-  animation: rotate 5s infinite, opacity 3s;
+  transition: transform .2s;
+  /* animation: opacity 3s; */
 } 
+
+div[data-class='container']:hover {
+  /* animation: rotate 5s infinite; */
+  transform: scale(1.1);  
+}
 
 div[data-class='container'] > h1 {
   text-align: center;
@@ -69,7 +72,7 @@ div[data-class="frontpage"] {
   grid-template-columns: 50% 50%;
   grid-template-rows: 22% auto 22%;
 
-  width: 85vh; 
+  width: 80vh; 
   height: auto;
   grid-gap: 1px;
   justify-items: stretch;
@@ -135,6 +138,23 @@ div[data-id="content"]>:last-child:after { /* Linksonder */
     border-width: 0 0 0px 0px
 }
 
+div[data-class="footer"] {
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  color: white;
+  background: black;
+  font-size: 1.7em;
+  display: inline-block;
+  white-space: nowrap;
+  animation: floatText 15s infinite linear;
+  padding-left: 100%; /*Initial offset*/
+}
+
+div[data-class="footer"]:hover {
+  animation-play-state: paused;
+}
+
 @media(max-width: 900px) {
   div[data-class="container"] {
     width: 75%;
@@ -178,4 +198,10 @@ div[data-id="content"]>:last-child:after { /* Linksonder */
   0% {transform: rotate(-2deg);}
   50% {transform: rotate(2deg);}
   100% {transform: rotate(-2deg);}
+}
+
+@keyframes floatText {
+  to {
+    transform: translateX(-100%);
+  }
 }
