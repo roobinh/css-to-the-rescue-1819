@@ -2,6 +2,6 @@ console.log("ik werk!");
 
 function clicked() {
     console.log("frontpage clicked!")
-    // document.getElementById("frontpage").style.display = none;
-    // document.getElementById("homepage").style.display = flex;
+    document.querySelector("[data-front]").style.display = 'none';
+    document.querySelector("[data-home]").style.display = 'flex';
 }
