@@ -1,40 +1,57 @@
-# Week 1 - 👁 C what you did there
+# Burgertent - Restaurant Menu (CSS To The Resque)
 
-1. Be inspired by Vitaly Friedman.
-2. Pick an assignment
-3. Understand your CSS methodology
-4. Read and explain articles
-5. Work!
+## Table Of Contents
+1. The Assignment & restrictions
+2. Learning Goals
+3. 
+4. 
+5. 
+6. Final Product
+7. 
+8. 
+9. 
 
-## Tuesday
+## The Assignment
+In this course we are going to make a web page using only CSS and HTML. 
 
-Hi!
+I had to choose between multiple given assignments and chose for the **'Responsive Restaurant Menu'**. The restaurant is called: 'Burgertent'.
 
-### Inspirational introduction: “Let’s Break The Web!”
+I also had to choose two of the given **restrictions**, and chose for: 
+⋅⋅* Two Colours
+⋅⋅* Less Than 5kb CSS
 
-Bring a sketch book. Take (sketch)notes!
+Besides that, I was also not allowed to use any ID's and Classes, so this is going to be fun :)
 
-### Explaining the assignments
 
-[All you need to know about the assignments can be found here](the-assignments.md)
+Learning goals:
+Understanding the broader scope of css: You can show that css can be used for more than just styling web pages.
+You can understand the progressive enhancement parts of css: you can show that you can use the cascade, inheritance and specificity in your project. 
+You understand the interactive parts of css: Is the UX fully enhanced within the given CSS scope?
+You have been experimenting: Have the learning goals been stretched?
 
-### Sketching
+Assignment/goals:
 
-Did we say you should bring a sketch book?
 
-### Daily standup
 
-What did you learn? What’s your plan? Where are the challenges?
 
-## Thursday
 
-**!important:** We start with [The Weekly Specificity](weekly-specificity.md). Read your articles, be on time!
 
-The rest of the day:
 
-- Work
-- Daily standup
 
-## Friday
 
-- Feedback, conversations
+
+Final Product
+
+Click here for a online live demo of the site.
+For installation of the program, use the following commands:
+..............
+
+
+Closure
+Starting with the project, I had (almost) no experience with CSS. This project was a challenge for me, but I think I learned a lot:
+-I experimented a lot; what happens if i do this or that. I learned a lot from experimenting with all the different things possible in CSS.
+-I learned how to make a responsive website using flexbox.
+-I learned how to animate things within CSS
+-I learned about progressive enhancement, how to make a website responsible on all possible platforms and browsers.
+-I learned how to make a page interactive using CSS only.
+
