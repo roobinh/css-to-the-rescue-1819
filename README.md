@@ -1,64 +1,57 @@
-# CSS to the Rescue @cmda-minor-web 18-19
+# Burgertent (CSS To The Resque)
+A fully responsive restaurant menu using CSS and HTML only.
 
-_This course is in English_
+## Table Of Contents
+1. The Assignment & restrictions
+2. Learning Goals
+3. Progressive Enhancement
+4. 
+5. 
+6. The Product
+7. Closure
+8. 
+9. 
 
-In this three week course you are going to create an innovative, pleasurable user experience by using CSS.
+## 1. The Assignment
+In this course we are going to make a web page using only CSS and HTML. I had to choose between multiple given assignments, and chose for the **'Responsive Restaurant Menu'** for a restaurant called 'Burgertent'.
 
-## Learning goals
-- _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
-- _You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_
-- _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
-- _You have been experimenting: Have the learning goals been stretched?_
+I had to choose two of the given **restrictions**, and chose for: 
+- Two Colours
+- CSS file less than 5Kb
 
-[Rubric](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
+Besides that, I was also 
+- not allowed to use any ID's and Classes
 
-## Programm
+so this is going to be fun :)
 
-### Week 1 - 👁 C what you did there
+## 2. Learning goals
+After this project, I am capable of the following things:
 
-[See all the details of week 1 here](week1/).
+- Understanding the broader scope of css: You can show that css can be used for more than just styling web pages.
+- You can understand the progressive enhancement parts of css: you can show that you can use the cascade, inheritance and specificity in your project. 
+- You understand the interactive parts of css: Is the UX fully enhanced within the given CSS scope?
+- You have been experimenting: Have the learning goals been stretched?
 
-Goals of this week: 
-
-- Be inspired
-- Understand the cascade, inheritance and specificity
-- Get going!
-
-<!-- [Opdrachten](https://drive.google.com/open?id=1OVhWQNaCgSluYviTKKWcApkyPd23xow1PiExb8GYANM) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1Rjl9xqXoKniQSRJPdkU1O5YwWC33SJK8KiV0a-H_xZU) -->
-
-### Week 2 - Create Stuff, 🙃 Smile 
-
-This week’s goals: Create stuff, break stuff, and learn from each other
-
-<!-- [Opdrachten](https://drive.google.com/open?id=1GMDTdW3LycAYpZSFI6gk_lrKrx8-zLWrNh69aaVEH5Y) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1IqQeu1m0dQiSC_KCvrn8eencAgtYe7X6qT-gm0n9Bmc) -->
-
-### Week 3 - 🎪 Show time
-
-Goals: Blow us away
-
-<!-- [Opdrachten](https://drive.google.com/open?id=13pKQu72pshaEzKw9q5JHLa-aop85nMP6nDCdqioWjoQ) -->
-
-<!-- [Slides](https://drive.google.com/open?id=1BSzGYNLMgtHD4HRnK7f0DgyTv4Pg3xsQwD_eYNo7v0Y) -->
+## 3. Progressive Enhancement
+During this project, I learned a lot about progressive enhancement.
 
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
 
-<!-- ☝️ replace this description with a description of your own work -->
 
-<!-- Add a nice image here at the end of the week, showing off your shiny frontend 📸 -->
+## 6. Final Product
+[Click here](linkje) for a online live demo of the site.
 
-<!-- Maybe a table of contents here? 📚 -->
+For **installation** of the program, use the following commands:
+```
+git clone https://github.com/roobinh/css-to-the-rescue-1819
 
-<!-- How about a section that describes how to install this project? 🤓 -->
+cd css-to-the-rescue-1819/week1
+```
 
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+## 7. Closure
+Starting with the project, I had (almost) no experience with CSS. This project was a challenge for me, but I think I learned a lot:
+- I experimented a lot; what happens if i do this or that. I learned a lot from experimenting with all the different things possible in CSS.
+- I learned how to make a responsive website using flexbox.
+- I learned how to animate things within CSS
+- I learned about progressive enhancement, how to make a website responsible on all possible platforms and browsers.
+- I learned how to make a page interactive using CSS only.
