@@ -119,6 +119,7 @@ div[data-class="product"] {
   margin: 1em;
 }
 
+/* ------------ FLYING DRINK ---------------- */
 div[data-class="flying-drink"] {
   display: none;
   position: absolute;
@@ -128,10 +129,11 @@ div[data-class="flying-drink"] {
   transform:  translateX(-50%) translateY(-50%) rotate(10deg);
 }
 
-div[data-class="flying-drink"]:hover {
-  transform: scale(1.2);
+div[data-class="flying-drink"]:hover ~ body {
+    background: black;
 }
 
+/* ------------ CONTAINER CORNERS ---------------- */
 div[data-id="content"]:before, 
 div[data-id="content"]:after, 
 div[data-id="content"]>:last-child:before, 
@@ -168,6 +170,7 @@ div[data-id="content"]>:last-child:after { /* Linksonder */
     border-width: 0 0 0px 0px
 }
 
+/* ------------ FOOTER---------------- */
 div[data-class="footer"] {
   position: fixed;
   bottom: 0;
