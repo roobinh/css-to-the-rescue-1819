@@ -15,20 +15,20 @@ A fully responsive restaurant menu
 ## 1. The Assignment
 In this course we are going to make a web page using only CSS and HTML. 
 
-I had to choose between multiple given assignments and chose for the **'Responsive Restaurant Menu'**. The restaurant is called: 'Burgertent'.
+I had to choose between multiple given assignments, and chose for the **'Responsive Restaurant Menu'** for a restaurant called 'Burgertent'.
 
 I also had to choose two of the given **restrictions**, and chose for: 
-⋅⋅* Two Colours
-⋅⋅* Less Than 5kb CSS
+- Two Colours
+- Less Than 5kb CSS
 
 Besides that, I was also not allowed to use any ID's and Classes, so this is going to be fun :)
 
 ## 2. Learning goals
 After this project, I am capable of the following things:
-⋅⋅* Understanding the broader scope of css: You can show that css can be used for more than just styling web pages.
-⋅⋅* You can understand the progressive enhancement parts of css: you can show that you can use the cascade, inheritance and specificity in your project. 
-⋅⋅* You understand the interactive parts of css: Is the UX fully enhanced within the given CSS scope?
-⋅⋅* You have been experimenting: Have the learning goals been stretched?
+- Understanding the broader scope of css: You can show that css can be used for more than just styling web pages.
+- You can understand the progressive enhancement parts of css: you can show that you can use the cascade, inheritance and specificity in your project. 
+- You understand the interactive parts of css: Is the UX fully enhanced within the given CSS scope?
+- You have been experimenting: Have the learning goals been stretched?
 
 
 ## 6. Final Product
