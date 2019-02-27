@@ -1,10 +1,10 @@
 # Burgertent (CSS To The Resque)
-A fully responsive restaurant menu
+A fully responsive restaurant menu using CSS and HTML.
 
 ## Table Of Contents
 1. The Assignment & restrictions
 2. Learning Goals
-3. 
+3. Progressive Enhancement
 4. 
 5. 
 6. The Product
@@ -21,7 +21,10 @@ I also had to choose two of the given **restrictions**, and chose for:
 - Two Colours
 - Less Than 5kb CSS
 
-Besides that, I was also not allowed to use any ID's and Classes, so this is going to be fun :)
+Besides that, I was also **not allowed** 
+- to use any ID's and Classes
+
+so this is going to be fun :)
 
 ## 2. Learning goals
 After this project, I am capable of the following things:
@@ -30,6 +33,11 @@ After this project, I am capable of the following things:
 - You can understand the progressive enhancement parts of css: you can show that you can use the cascade, inheritance and specificity in your project. 
 - You understand the interactive parts of css: Is the UX fully enhanced within the given CSS scope?
 - You have been experimenting: Have the learning goals been stretched?
+
+## 3. Progressive Enhancement
+During this project, I learned a lot about progressive enhancement.
+
+
 
 
 ## 6. Final Product
