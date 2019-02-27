@@ -24,7 +24,7 @@ div[data-class="front-flex"] {
   grid-template-columns: 50% 50%;
   grid-template-rows: 22% auto 22%;
 
-  width: 80vh; 
+  width: 500px; 
   height: auto;
   grid-gap: 1px;
   justify-items: stretch;
@@ -48,7 +48,7 @@ div[data-class="clicktext"] {
  
 div[data-class="fronttitle"] {
   text-align: center;
-  font-size: 4vh;
+  font-size: 1.7em;
   margin: 0em;
   letter-spacing: .9em;
   animation-name: fronttitle;
@@ -213,6 +213,7 @@ div[data-class="footer-bg"] {
 
   div[data-class="fronttitle"] {
     letter-spacing: .1em;
+    font-size: 1.6em;
   }
 }
 
