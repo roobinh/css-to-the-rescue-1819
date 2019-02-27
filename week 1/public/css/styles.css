@@ -206,6 +206,16 @@ div[data-class="footer-bg"] {
   }
 }
 
+@media(max-width: 650px) {
+  div[data-class="front-flex"] {
+    width: 300px;
+  }
+
+  div[data-class="fronttitle"] {
+    letter-spacing: .1em;
+  }
+}
+
 /* ------------ KEYFRAMES ---------------- */
 
 @keyframes fronttitle {

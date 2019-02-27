@@ -32,7 +32,7 @@ After this project, I am capable of the following things:
 - You understand the interactive parts of css: Is the UX fully enhanced within the given CSS scope?
 - You have been experimenting: Have the learning goals been stretched?
 
-## 3. Progressive Enhancement
+## 3. Progressive Enhancement parts
 During this project, I learned a lot about progressive enhancement.
 
 
