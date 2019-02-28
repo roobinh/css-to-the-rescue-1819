@@ -48,10 +48,10 @@ After calculating the specificity, you know which style rule is going to be appl
 ## 4. How I would rate myself
 Prior to the project I almost had no CSS experience at all. I think I learned a lot in the last couple of weeks and used my knowledge to build a simple, but responsive and clear restaurant menu not using any classes and ID's. 
 
-[Click here](https://imgur.com/a/UoOW3E9)
+[Click here](https://imgur.com/a/UoOW3E9) to see how I would rate myself.
 
 ## 5. Final Product
-[Click here](linkje) for a online live demo of the site.
+[Click here](https://imgur.com/a/VuxmG86) to see screenshots of the website. Note that the website uses a lot of animations which cant be seen on a image.
 
 For **installation** of the program, use the following commands:
 ```
