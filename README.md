@@ -33,14 +33,11 @@ After this project, I am capable of the following things:
 Defenition of progressive enhancement is: "User experience and cross-compatibility across all browsers". This is a very important part of making a website because you want your site to be able to reachable from as many devices as possible (if not all).
 
 Progressive enhancements can be seperated into 3 different subjects:
-- Cascade
-Cascade is a mechanism for determining which style should be applied to a given element. Cascade takes importance, origin, specificity and source order into account.
+- Cascade is a mechanism for determining which style should be applied to a given element. Cascade takes importance, origin, specificity and source order into account.
 
-- Inherritance
-Inheritance is the process by which elements inherit the the values of properties from their parents in the DOM tree. For instance: some properties, e.g. color, are automatically inherited by the children of the element to which they are applied.
+- Inherritance is the process by which elements inherit the the values of properties from their parents in the DOM tree. For instance: some properties, e.g. color, are automatically inherited by the children of the element to which they are applied.
 
-- Specificity
-Specificity is a method of conflict resolution within the cascade. Specificity is calculated in a very special way. First, you write down the letters ABCD. 
+- Specificity is a method of conflict resolution within the cascade. Specificity is calculated in a very special way. First, you write down the letters ABCD. 
 -A is equal to 1 if the declaration comes from a style attribute in HTML (rather than in css file)
 -B is equal to the number of ID attributes in a selector
 -C is equal to the number of other attributes and psuedo classes in a selector
@@ -49,7 +46,9 @@ Specificity is a method of conflict resolution within the cascade. Specificity i
 After calculating the specificity, you know which style rule is going to be applied.
 
 ## 4. How I would rate myself
-![Rubric](https://ibb.co/ZBWzJSd)
+Prior to the project I almost had no CSS experience at all. I think I learned a lot in the last couple of weeks and used my knowledge to build a simple, but responsive and clear restaurant menu not using any classes and ID's. Down below is a rubric of how I would rate myself.
+
+![Rubric](https://i.ibb.co/ZBWzJSd/rubric.png)
 
 ## 5. Final Product
 [Click here](linkje) for a online live demo of the site.
@@ -66,5 +65,5 @@ Starting with the project, I had (almost) no experience with CSS. This project w
 - I experimented a lot; what happens if i do this or that. I learned a lot from experimenting with all the different things possible in CSS.
 - I learned how to make a responsive website using flexbox.
 - I learned how to animate things within CSS
-- I learned about progressive enhancement, how to make a website responsible on all possible platforms and browsers.
+- I learned about progressive enhancement, and how to make a website responsible on all possible platforms and browsers.
 - I learned how to make a page interactive using CSS only.
