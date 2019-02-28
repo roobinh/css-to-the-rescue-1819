@@ -46,7 +46,7 @@ Progressive enhancements can be seperated into 3 different subjects:
 After calculating the specificity, you know which style rule is going to be applied.
 
 ## 4. How I would rate myself
-Prior to the project I almost had no CSS experience at all. I think I learned a lot in the last couple of weeks and used my knowledge to build a simple, but responsive and clear restaurant menu not using any classes and ID's. 
+Prior to the project I almost had no CSS experience at all. I think I learned a lot in the last couple of weeks and used my knowledge to build a simple, but responsive and clear restaurant menu not using any classes and ID's. I also experimented a lot using many different techniques, which I think made the site to what it is right now.
 
 [Click here](https://imgur.com/a/UoOW3E9) to see how I would rate myself.
 
@@ -67,3 +67,5 @@ Starting with the project, I had (almost) no experience with CSS. This project w
 - I learned how to animate things within CSS
 - I learned about progressive enhancement, and how to make a website responsible on all possible platforms and browsers.
 - I learned how to make a page interactive using CSS only.
+
+Thank you.
