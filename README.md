@@ -46,9 +46,9 @@ Progressive enhancements can be seperated into 3 different subjects:
 After calculating the specificity, you know which style rule is going to be applied.
 
 ## 4. How I would rate myself
-Prior to the project I almost had no CSS experience at all. I think I learned a lot in the last couple of weeks and used my knowledge to build a simple, but responsive and clear restaurant menu not using any classes and ID's. Down below is a rubric of how I would rate myself.
+Prior to the project I almost had no CSS experience at all. I think I learned a lot in the last couple of weeks and used my knowledge to build a simple, but responsive and clear restaurant menu not using any classes and ID's. 
 
-![Rubric](https://imgur.com/a/XmT6UqK)
+[Click here](https://imgur.com/a/UoOW3E9)
 
 ## 5. Final Product
 [Click here](linkje) for a online live demo of the site.
